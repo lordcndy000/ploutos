@@ -28,6 +28,6 @@ export default new Router({
       path: '/admin/treasury',
       name: 'treasury',
       component: () => import('./views/Treasury.vue')
-    },
+    }
   ]
 })

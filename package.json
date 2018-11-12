@@ -31,7 +31,6 @@
     "vue-cli-plugin-vuetify": "^0.4.5",
     "vue-froala-wysiwyg": "^2.9.0",
     "vue-template-compiler": "^2.5.17",
-    "vuefire": "^1.4.5",
     "webpack": "^4.25.1"
   }
 }

@@ -50,9 +50,9 @@
       <v-list class="pt-0" dense>
         <v-divider light></v-divider>
 
-        <router-link 
+        <router-link
           class="navigation-item-wrapper"
-          active-class="navigation-item-wrapper--active" 
+          active-class="navigation-item-wrapper--active"
           v-bind:to="`${item.route}`"
           v-for="item in items"
           :key="item.title"
@@ -74,7 +74,7 @@
 <script>
 export default {
   name: 'Navigation',
-  data() {
+  data () {
     return {
       drawer: null,
       items: [
@@ -107,26 +107,11 @@ export default {
     &:hover {
       background-color: $primary;
     }
-    /* &:hover::before {
-      opacity: 1;
-    }
-    &::before {
-      background-color: $primary;
-      content: '';
-      height: 100%;
-      opacity: 0;
-      position: absolute;
-      transition: opacity 0.2s ease-in-out;
-      width: 100%;
-    } */
     .navigation-item {
       color: #fff;
       display: flex;
       position: relative;
-      &--active {
-      }
     }
   }
 }
 </style>
-
