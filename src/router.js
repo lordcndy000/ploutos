@@ -24,5 +24,10 @@ export default new Router({
       name: 'dashboard',
       component: () => import('./views/Dashboard.vue')
     },
+    {
+      path: '/admin/treasury',
+      name: 'treasury',
+      component: () => import('./views/Treasury.vue')
+    },
   ]
 })

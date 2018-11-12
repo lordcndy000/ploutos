@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard">
     <Navigation />
-    dasboard
+    treasury
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import Navigation from '@/components/Navigation.vue'
 
 export default {
-  name: 'home',
+  name: 'treasury',
   components: {
     Navigation
   }
